@@ -41,14 +41,14 @@ body {
   margin: auto 0;
 }
 
-.header__navigation {
+.header-navigation {
   width: 100%;
   height: 100%;
   margin-left: 80px;
   display: flex;
 }
 
-.header__navigation .header__navigation__menu  {
+.header-navigation .header-navigation__menu  {
   list-style-type: none;
   display: flex;
   padding: 0;
@@ -57,18 +57,18 @@ body {
   justify-content: center; */
 }
 
-.header__navigation__menu > li {
+.header-navigation__menu > li {
   height: 100%;
   padding-top: 30px;
   box-sizing: border-box;
 }
 
-.header__navigation__menu > li:hover {
+.header-navigation__menu > li:hover {
   background: #e94e38;
   color: #fff;
 }
 
-.header__navigation__menu .header-navigation-menu__item {
+.header-navigation__menu .header-navigation-menu__item {
   height: 100%;
   align-items: center;
   text-decoration: none;
@@ -81,19 +81,19 @@ body {
   color: #ffffff;
 }
 
-.header__navigation .header-navigation__search {
+.header-navigation .header-navigation__search {
   width: 80px;
   background: #e2dee0;
   color: #ffffff;
 }
 
-.header__navigation .header__navigation__login {
+.header-navigation .header-navigation__login {
   height: 100%;
   width: 160px;
   background: #e94e38;
 }
 
-.header__navigation__button {
+.header-navigation__button {
   height: 100%;
   display: flex;
   align-items: center;
@@ -102,11 +102,11 @@ body {
   cursor: pointer;
 }
 
-.header__navigation__button:hover {
+.header-navigation__button:hover {
   opacity: 0.8;
 }
 
-.header__navigation__button span {
+.header-navigation__button span {
   margin-left: 10px;
 }
 
@@ -129,7 +129,7 @@ body {
   margin: 0 auto;
 }
 
-.search__box__input {
+.search-box__input {
   height: 56px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -140,13 +140,13 @@ body {
   font-size: 18px;
 }
 
-.search__box .search__filter-box {
+.search__box .search-filter-box {
   display: flex;
   width: 100%;
   margin-bottom: 20px;
 }
 
-.search__filter-box .search__filter-box__select {
+.search-filter-box .search-filter-box__select {
   width: 240px;
   font-family: "Gotham-Book";
 }
@@ -155,12 +155,12 @@ body {
   margin-right: 20px;
 }
 
-.search__filter-box__select__option {
+.search-filter-box-select__option {
   font-size: 20px;
   color: #000000;
 }
 
-.search__filter-box__select__option::selection {
+.search-filter-box-select__option::selection {
   color: white;
 }
 
@@ -175,12 +175,12 @@ body {
   opacity: 1;
 }
 
-.search .search__button {
+.search .search-button {
   width: 100%;
   text-align: center;
 }
 
-.search__button .search__button__item {
+.search-button .search-button__item {
   height: 60px;
   background: #e94e38;
   border: 1px solid #e94e38;
@@ -307,7 +307,7 @@ body {
   margin-top: 3px;
 }
 
-select, input:focus {
+select, input, button:focus {
   outline: none;
 }
 
