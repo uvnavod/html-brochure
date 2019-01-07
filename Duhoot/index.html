@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Duhoot</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="icon" type="image/png" href="images/ic_favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
+    <div class="header">
+      <div class="container container-row">
         <div class="header__logo">
           <a href="/"><img src="images/img_logo.png" alt="logo" /></a>
         </div>
@@ -36,7 +34,7 @@
             </li>
           </ul>
           <div class="header-navigation__button header-navigation__search">
-            <i class="fa fa-user"></i>
+            <i class="fas fa-search"></i>
           </div>
           <div class="header-navigation__button header-navigation__login">
             <i class="fa fa-user"></i><span>LOGIN</span>
@@ -66,6 +64,438 @@
           <button class="search-button__item">SEARCH</button>
         </div>
       </div><!-- /search -->
+      <div class="filter">
+        <div class="container container-row">
+          <div class="filter-box">
+            <ul class="filter-box-text-list">
+              <li>
+                <a class="filter-box-text-list__item filter-box-text-list__item--active" href="#">RECOMMENDED</a>
+              </li>
+              <li>
+                <a class="filter-box-text-list__item" href="#">LASTED</a>
+              </li>
+              <li>
+                <a class="filter-box-text-list__item" href="#">HIGHTLIGHT</a>
+              </li>
+            </ul>
+          </div><!-- /filter-box -->
+          <div class="filter-box filer-box--center">
+              <select class="filter-box__input filter-box-select">
+                <option value="" class="filter-box-select__option">Dubai</option>
+                <option value="" class="filter-box-select__option">New York</option>
+                <option value="" class="filter-box-select__option">Ha Noi</option>
+              </select>
+              <button class="filter-box__input filter-box-button">
+                <span class="filter-box-button__text">SHOW MAP</span>
+                <i class="fas fa-map-marker-alt"></i>
+              </button>
+          </div><!-- /filtler-box -->
+          <div class="filter-box filer-box--right">
+            <span class="filter-box__text">FILTER:</span>
+            <div class="filter-box-image filter-box-image--green">
+              <div class="filter-box-image__icon">
+                <img src="images/ic_home_white.png" alt="">
+              </div>
+            </div>
+            <div class="filter-box-image">
+              <div class="filter-box-image__icon">
+                <img src="images/ic_person_white.png" alt="">
+              </div>
+            </div>
+            <div class="filter-box-image">
+              <div class="filter-box-image__icon">
+                <img src="images/ic_study_white.png" alt="">
+              </div>
+            </div>
+            <div class="filter-box-image filter-box-image--orange">
+              <div class="filter-box-image__icon">
+                <img src="images/ic_music_white.png" alt="">
+              </div>
+            </div>
+            <div class="filter-box-image filter-box-image--purple">
+              <div class="filter-box-image__icon">
+                <img src="images/ic_vehicle_white.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div><!-- /filter -->
+      </div><!-- /container -->
+      <div class="post">
+        <div class="container container--post">
+          <div class="container-row container-row--margin-bottom">
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--green" src="images/img_thumb_h1.png" alt="">
+                <div class="post-box-half-thumb__price-tag post-box-half-thumb__price-tag--green">
+                  <span>$2.990</span>
+                </div>
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--green">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_music_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">2 bedroom house for rent in Dubai</p>
+              <p class="post-box-half__kind post-box-half__kind--green">VISION AGENCY</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(265)</span>
+              </div>
+            </div><!-- /post-box-half -->
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--orange" src="images/img_thumb_h2.png" alt="">
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--orange">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_music_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">Beach party festival 2014</p>
+              <p class="post-box-half__kind post-box-half__kind--orange">LONG BEACH</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(1165)</span>
+              </div>
+            </div><!-- /post-box-half -->
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--purple" src="images/img_thumb_h1.png" alt="">
+                <!-- <div class="post-box-half-thumb__price-tag post-box-half-thumb__price-tag--green">
+                  <span>$2.990</span>
+                </div> -->
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--purple">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">Aliquam quis pulvinar purus</p>
+              <p class="post-box-half__kind post-box-half__kind--purple">BUS TRANS</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(365)</span>
+              </div>
+            </div><!-- /post-box-half -->
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--green" src="images/img_thumb_h3.png" alt="">
+                <div class="post-box-half-thumb__price-tag post-box-half-thumb__price-tag--green">
+                  <span>$2.990</span>
+                </div>
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--green">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">4 bedroom house for rent in Dubai</p>
+              <p class="post-box-half__kind post-box-half__kind--green">REALITY AGENCY</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(165)</span>
+              </div>
+            </div><!-- /post-box-half -->
+          </div><!-- /container-row -->
+          <div class="container-row container-row--margin-bottom">
+            <div class="post-box-full">
+              <div class="post-box-full-thumb">
+                <img class="post-box-thumb--green" src="images/img_thumb_f1.png" alt="">
+                <div class="post-box-full-thumb-vote">
+                  <span class="post-box-full-thumb-vote__kind">VISION BEACH</span>
+                  <div class="post-box-vote__star-point">
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_empty.png" alt=""/>
+                  </div>
+                  <span class="post-box-vote__quantity">(165)</span>
+                </div>
+              </div>
+              <div class="post-box-image post-box-image--left post-box-image--green">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <div class="post-box-image post-box-image--left post-box-image--avatar">
+                <div class="post-box-image__icon post-box-image__icon--border">
+                  <img src="images/img_avatar_1.png" alt="">
+                </div>
+              </div>
+              <!-- /post-box-image -->
+              <div class="post-box-comment">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <p class="post-box-comment__name">LUCY-P</p>
+                <p class="post-box-comment-content">
+                  <span>“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”</span>
+                  <span class="post-box-comment-content__readmore">... read more</span>
+                </p>
+              </div>
+            </div><!-- /post-box-full -->
+            <div class="post-box-full">
+              <div class="post-box-full-thumb">
+                <img class="post-box-thumb--orange" src="images/img_thumb_f2.png" alt="">
+                <div class="post-box-full-thumb-vote">
+                  <span class="post-box-full-thumb-vote__kind">SKYBOX CLUB</span>
+                  <div class="post-box-vote__star-point">
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                  </div>
+                  <span class="post-box-vote__quantity">(1365)</span>
+                </div>
+              </div>
+              <div class="post-box-image post-box-image--left post-box-image--orange">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <div class="post-box-image post-box-image--left post-box-image--avatar">
+                <div class="post-box-image__icon post-box-image__icon--border">
+                  <img src="images/img_avatar_2.png" alt="">
+                </div>
+              </div>
+              <!-- /post-box-image -->
+              <div class="post-box-comment">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                </div>
+                <p class="post-box-comment__name">PETER145</p>
+                <p class="post-box-comment-content">
+                  <span>“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”</span>
+                  <span class="post-box-comment-content__readmore">... read more</span>
+                </p>
+              </div>
+            </div><!-- /post-box-full -->
+          </div><!-- container-row -->
+          <div class="container-row container-row--margin-bottom">
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--green" src="images/img_thumb_h1.png" alt="">
+                <div class="post-box-half-thumb__price-tag post-box-half-thumb__price-tag--green">
+                  <span>$2.990</span>
+                </div>
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--green">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">2 bedroom house for rent in Dubai</p>
+              <p class="post-box-half__kind post-box-half__kind--green">VISON AGENCY</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(365)</span>
+              </div>
+            </div><!-- /post-box-half -->
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--orange" src="images/img_thumb_h2.png" alt="">
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--orange">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_music_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">Beach party festival 2014</p>
+              <p class="post-box-half__kind post-box-half__kind--orange">LONG BEACH</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(1165)</span>
+              </div>
+            </div><!-- /post-box-half -->
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--purple" src="images/img_thumb_h1.png" alt="">
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--purple">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">Aliquam quis pulvinar purus</p>
+              <p class="post-box-half__kind post-box-half__kind--purple">BUS TRANS</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(365)</span>
+              </div>
+            </div><!-- /post-box-half -->
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--green" src="images/img_thumb_h3.png" alt="">
+                <div class="post-box-half-thumb__price-tag post-box-half-thumb__price-tag--green">
+                  <span>$2.990</span>
+                </div>
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--green">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">4 bedroom house for rent in Dubai</p>
+              <p class="post-box-half__kind post-box-half__kind--green">REALITY AGENCY</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(165)</span>
+              </div>
+            </div><!-- /post-box-half -->
+          </div><!-- /container-row -->
+          <div class="container-row container-row--margin-bottom">
+            <div class="post-box-full">
+              <div class="post-box-full-thumb">
+                <img class="post-box-thumb--orange" src="images/img_thumb_f2.png" alt="">
+                <div class="post-box-full-thumb-vote">
+                  <span class="post-box-full-thumb-vote__kind">SKYBOX CLUB</span>
+                  <div class="post-box-vote__star-point">
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                    <img src="images/ic_star_fill.png" alt=""/>
+                  </div>
+                  <span class="post-box-vote__quantity">(1365)</span>
+                </div>
+              </div>
+              <div class="post-box-image post-box-image--left post-box-image--orange">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <div class="post-box-image post-box-image--left post-box-image--avatar">
+                <div class="post-box-image__icon post-box-image__icon--border">
+                  <img src="images/img_avatar_2.png" alt="">
+                </div>
+              </div>
+              <!-- /post-box-image -->
+              <div class="post-box-comment">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                </div>
+                <p class="post-box-comment__name">PETER145</p>
+                <p class="post-box-comment-content">
+                  <span>“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”</span>
+                  <span class="post-box-comment-content__readmore">... read more</span>
+                </p>
+              </div>
+            </div><!-- /post-box-full -->
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--purple" src="images/img_thumb_h1.png" alt="">
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--purple">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">Aliquam quis pulvinar purus</p>
+              <p class="post-box-half__kind post-box-half__kind--purple">BUS TRANS</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(365)</span>
+              </div>
+            </div><!-- /post-box-half -->
+            <div class="post-box-half">
+              <div class="post-box-half-thumb">
+                <img class="post-box-thumb--green" src="images/img_thumb_h3.png" alt="">
+                <div class="post-box-half-thumb__price-tag post-box-half-thumb__price-tag--green">
+                  <span>$2.990</span>
+                </div>
+              </div><!-- /post-box-half-thumb -->
+              <div class="post-box-image post-box-image--green">
+                <div class="post-box-image__icon">
+                  <img src="images/ic_home_white.png" alt="">
+                </div>
+              </div><!-- /post-box-image -->
+              <p class="post-box-half__detail">4 bedroom house for rent in Dubai</p>
+              <p class="post-box-half__kind post-box-half__kind--green">REALITY AGENCY</p>
+              <div class="post-box-vote">
+                <div class="post-box-vote__star-point">
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_fill.png" alt=""/>
+                  <img src="images/ic_star_empty.png" alt=""/>
+                </div>
+                <span class="post-box-vote__quantity">(165)</span>
+              </div>
+            </div><!-- /post-box-half -->
+          </div><!-- /container-row -->
+          <p class="post-load-more">
+            <span class="post-load-more_text">Load more</span><i>&#8594;</i>
+          </p>
+        </div><!-- /container -->
+      </div><!-- /post -->
       <div class="offer">
         <div class="offer-title">
           <span class="offer-title__first">What can DuHoot offer to you?</span><br/>
@@ -99,7 +529,6 @@
                 <span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</span>
               </p>
             </div>
-
             <div class="offer-detail-box-col">
               <div class="offer-detail-box-col__image">
                 <img src="images/ic_leather.png" alt="">
@@ -115,11 +544,9 @@
     <div class="footer">
       <div class="container">
         <div class="footer-subcribe">
-          <div class="footer-subcribe__title"></div>
           <div class="footer-subcribe-input">
-            <!-- <i class="fas fa-envelope-square"></i> -->
-            <img class="footer-subcribe-input__icon" src="images/ic_envelop.png" alt="">
-            <input type="text" class="footer-subcribe-input__text" placeholder="yourmail@email.com"/>
+            <i class="far fa-envelope"></i>
+            <input type="email" class="footer-subcribe-input__text" placeholder="yourmail@email.com"/>
             <button class="footer-subcribe-input__btn">SUBCRIBE</button>
           </div>
         </div><!-- /footer-subcribe -->
